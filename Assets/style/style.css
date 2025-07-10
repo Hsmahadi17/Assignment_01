@@ -1,6 +1,7 @@
 .raleway-normal {
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
+    margin: 0%;
 }
 
 /* banner style */
@@ -56,3 +57,36 @@ nav {
 }
 
 /* banner css ends */
+
+/* action style */
+
+.action-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 120px 150px 0px;
+}
+
+.action-content {}
+
+.action-description {
+    color: rgba(37, 36, 50, 0.5);
+    margin: 0 0 20px;
+}
+
+.action-title {
+    color: #252432;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.action-image {
+    height: 330px;
+    width: 400px;
+    border: none;
+    border-radius: 48px;
+
+}
+
+/* action css end */
