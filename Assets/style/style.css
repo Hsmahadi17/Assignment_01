@@ -120,14 +120,20 @@ main {
 /* user css */
 
 .user {
-    background-color: rgba(78, 71, 255, 0.1);
+    /* background-color: rgba(78, 71, 255, 0.1);
     margin: 110px 150px;
     border: none;
     border-radius: 24px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-
+    align-items: center; */
+    font-family: 'Arial', sans-serif;
+    /* Use your preferred font */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    text-align: center;
+    color: #333;
 }
 
 .user-title {
@@ -143,10 +149,10 @@ main {
 }
 
 .item-title {
-    color: #4E47FF;
-    font-size: 70px;
+    font-size: 3.5rem;
     font-weight: 700;
-    margin-bottom: 0%;
+    margin-bottom: 10px;
+    color: #4E47FF;
 }
 
 .item-sub-title {
@@ -180,8 +186,18 @@ main {
 }
 
 .focus-image {
-    border: none;
-    border-radius: 48px;
+    max-width: 800px;
+    margin: 0px 150px 150px 150px;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.focus-image img {
+    width: 100%;
+    display: block;
+    border-radius: 0;
+
 }
 
 /* touch form  style*/
