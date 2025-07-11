@@ -163,6 +163,7 @@ main {
     background-color: #ffffff;
     margin: 120px 150px;
     text-align: center;
+    border-radius: 30px;
 }
 
 .focus-content {
@@ -185,6 +186,14 @@ main {
 
 /* touch form  style*/
 
+.touch-column-title {
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #4E47FF;
+}
+
 .touch {
     margin: 100px 150px 10px;
     display: flex;
@@ -200,8 +209,12 @@ main {
 
 
 .touch label {
-    font-size: 16px;
+    font-size: 10px;
     font-weight: bold;
+    color: #8987A1;
+    margin: 10px;
+
+
 }
 
 .touch input[type="text"],
@@ -212,6 +225,15 @@ main {
     border: 1px solid #D6DDED;
     border-radius: 10px;
 
+}
+
+.submit-btn:hover {
+    background-color: darkblue;
+    color: bisque;
+}
+
+.submit-btn {
+    width: 55%;
 }
 
 /* footer style */
