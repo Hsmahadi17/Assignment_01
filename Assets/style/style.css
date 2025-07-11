@@ -214,4 +214,39 @@ main {
 
 }
 
-.submit-btn {}
+/* footer style */
+
+footer ul li {
+    list-style: none;
+}
+
+footer ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #8987A1;
+}
+
+.footer-title {
+    color: #4E47FF;
+    font-size: 100px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+.footer-description {
+    margin-top: 0;
+}
+
+footer {
+    margin: 0;
+    text-align: center;
+    padding: 100px 450px;
+    color: #8987A1;
+    background-color: #ffffff;
+}
+
+.footer-items {
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+}
