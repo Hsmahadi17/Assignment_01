@@ -3,6 +3,7 @@
     font-optical-sizing: auto;
     margin: 0%;
     max-width: 1440px;
+    background-color: #f5f8ff;
 }
 
 /* shared style */
@@ -153,3 +154,64 @@ main {
     font-size: 16px;
     margin-top: 0%;
 }
+
+/* user css end */
+
+/* focus section style */
+
+.focus {
+    background-color: #ffffff;
+    margin: 120px 150px;
+    text-align: center;
+}
+
+.focus-content {
+    padding: 70px;
+}
+
+.focus-title {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.focus-desceiption {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.focus-image {
+    border: none;
+    border-radius: 48px;
+}
+
+/* touch form  style*/
+
+.touch {
+    margin: 100px 150px 10px;
+    display: flex;
+    gap: auto;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.touch-column {
+    width: 50%;
+}
+
+
+.touch label {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.touch input[type="text"],
+.touch input[type="email"],
+.touch textarea {
+    padding: 20px 30px;
+    gap: 10;
+    border: 1px solid #D6DDED;
+    border-radius: 10px;
+
+}
+
+.submit-btn {}
