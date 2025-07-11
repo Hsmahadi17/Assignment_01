@@ -2,6 +2,30 @@
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     margin: 0%;
+    max-width: 1440px;
+}
+
+/* shared style */
+
+.primary-btn {
+    color: #ffffff;
+    background-color: #4E47FF;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 36px;
+    border-radius: 10px;
+    border: none;
+}
+
+button:hover {
+    background-color: darkblue;
+    color: bisque;
+}
+
+.section-title {
+    color: #252432;
+    font-size: 40px;
+    font-weight: bold;
 }
 
 /* banner style */
@@ -31,15 +55,6 @@ nav {
 
 /* nav-button */
 
-.primary-btn {
-    color: #ffffff;
-    background-color: #4E47FF;
-    font-size: 16px;
-    font-weight: bold;
-    padding: 12px 36px;
-    border-radius: 10px;
-    border: none;
-}
 
 .banner-title {
     color: #252432;
@@ -58,6 +73,13 @@ nav {
 
 /* banner css ends */
 
+/* main style */
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 /* action style */
 
 .action-container {
@@ -67,11 +89,14 @@ nav {
     margin: 120px 150px 0px;
 }
 
-.action-content {}
+.banner-content {
+    margin: 60px 160px 60px 0px;
+}
 
 .action-description {
     color: rgba(37, 36, 50, 0.5);
     margin: 0 0 20px;
+    font-size: 24px;
 }
 
 .action-title {
@@ -82,11 +107,49 @@ nav {
 }
 
 .action-image {
-    height: 330px;
-    width: 400px;
+    height: 328px;
+    width: 403px;
     border: none;
     border-radius: 48px;
 
 }
 
 /* action css end */
+
+/* user css */
+
+.user {
+    background-color: rgba(78, 71, 255, 0.1);
+    margin: 110px 150px;
+    border: none;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.user-title {
+    margin: 50px 150px 0;
+}
+
+.user-items {
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;
+    margin: 0 140px;
+    margin-bottom: 50px;
+}
+
+.item-title {
+    color: #4E47FF;
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 0%;
+}
+
+.item-sub-title {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+    margin-top: 0%;
+}
